@@ -1,0 +1,20 @@
+#테스트안에 yml이 있으면 main의 yml보다 우선권을 갖는다.
+spring:
+#  datasource:
+#    url: jdbc:h2:mem:test  #h2를 실행하지 않고 내장 메모리로 test진행
+#    username: sa
+#    password:
+#    driver-class-name: org.h2.Driver
+#
+#  jpa:
+#    hibernate:
+#      ddl-auto: create  #drop+create #디폴트인 create-drop은 drop+create+drop
+#    properties:
+#      hibernate:
+#        show_sql: true
+#          format_sql: true
+
+loging:
+  level:
+    org.hibernate.SQL: debug
+    org.hibernate.type: trace
