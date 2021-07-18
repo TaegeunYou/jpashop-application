@@ -22,7 +22,8 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-	implementation 'org.springframework.boot:spring-boot-devtools'
+	implementation 'org.springframework.boot:spring-boot-devtools'	// springboot가 restartedMain 으로 실행하여 캐싱을 하지 않아 변경하고 리컴파일한 것에 대해 바로 확인 가능
+	implementation 'org.springframework.boot:spring-boot-starter-validation'	//@NotEmpty
 
 	implementation 'com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.5.6'
 
